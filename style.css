@@ -26,7 +26,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -59,13 +58,15 @@ h1 {
 .card-list {
   display: flex;
   flex-direction: row;
+  max-width: 800px;
+  flex-wrap: wrap;
 }
 
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
+.passive {
   color: #888;
 }
 
